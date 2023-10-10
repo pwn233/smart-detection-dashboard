@@ -9,14 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@mantine/core": "^6.0.21",
+    "@mantine/hooks": "^6.0.21",
+    "@mantine/next": "^6.0.16",
+    "@tabler/icons-react": "^2.25.0",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.7",
+    "@types/uuid": "^9.0.2",
+    "axios": "^1.4.0",
+    "axios-hooks": "^4.0.0",
+    "debug": "^4.3.4",
+    "mantine-datatable": "^2.8.3",
+    "mysql2": "^3.6.1",
+    "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.4"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "react-json-view": "^1.21.3",
+    "sweetalert2": "^11.7.16",
+    "typescript": "5.1.6",
+    "uuid": "^9.0.0"
   }
 }
