@@ -1,9 +1,9 @@
 import Head from "next/head";
-import { Text, Center, Container, Button, Grid, Flex } from "@mantine/core";
+import { Text, Center, Container, Button, Flex } from "@mantine/core";
 import { DetectionModel } from "@/model/detection_model";
 import { useEffect, useState } from "react";
 import DetectionTable from "@/component/table";
-import { LoadingScreen } from "./loading_screen";
+import { LoadingScreen } from "../component/loading_screen";
 
 export default function Home() {
   const [isFetching, setIsFetching] = useState(true);
